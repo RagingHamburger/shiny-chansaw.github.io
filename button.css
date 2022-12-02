@@ -1,0 +1,44 @@
+.button {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.8);
+  background: rgb(145, 92, 182);
+  padding: 15px 40px;
+  border-radius: 4px;
+  font-weight: normal;
+  text-transform: uppercase;
+  transition: all 0.2s ease-in-out;
+}
+
+.glow-button:hover {
+  color: rgba(255, 255, 255, 1);
+  box-shadow: 0 0 0 50px rgba(145, 92, 182, .4);
+}
+
+body{
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 400px;
+  background: #0c192c;
+}
+
+a{
+  position: relative;
+  background-color: #444;
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 1.5em;
+  letter-spacing: 0.1em;
+  padding: 10px 30px;
+  transition: 0.5s;
+}
+
+a:hover{
+  letter-spacing: 0.25em;
+}
+
+a span{
+  position: relative;
+  z-index: 1;
+}
